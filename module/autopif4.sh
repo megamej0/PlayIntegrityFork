@@ -108,7 +108,10 @@ set_random_beta() {
   DEVICE="$(echo "$PRODUCT" | sed 's/_beta//')";
 }
 if [ -z "$PRODUCT" ]; then
-  set_random_beta;
+  PRODUCT="bluejay_beta"
+  MODEL="Pixel 6a"
+  DEVICE="bluejay"
+  echo "hola hola $MODEL ($PRODUCT)";
 fi;
 echo "$MODEL ($PRODUCT)";
 
