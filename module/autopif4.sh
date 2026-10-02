@@ -111,7 +111,6 @@ if [ -z "$PRODUCT" ]; then
   PRODUCT="bluejay_beta"
   MODEL="Pixel 6a"
   DEVICE="bluejay"
-  echo "hola hola $MODEL ($PRODUCT)";
 fi;
 echo "$MODEL ($PRODUCT)";
 
